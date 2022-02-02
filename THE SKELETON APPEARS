@@ -1,0 +1,11 @@
+echo "# the-skeleton" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rorynator/the-skeleton.git
+git push -u origin main
+// Send a basic message
+webhook.send('THE SKELETON APPEARS')
+  .then(message => console.log(`Sent message: ${message.content}`))
+  .catch(console.error);
